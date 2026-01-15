@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HALOSALUD by DEJAVÚ SPA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Inter', sans-serif;
+  background:#C08081;
+  color:#3a2a2a;
+}
+
+header{
+  min-height:100vh;
+  background:
+    linear-gradient(rgba(255,255,255,.85),rgba(255,255,255,.9)),
+    url('logo-halosalud.png') no-repeat center center;
+  background-size:420px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:60px 20px;
+}
+
+.logo{
+  max-width:220px;
+  margin-bottom:25px;
+}
+
+h1{
+  font-family:'Playfair Display', serif;
+  font-size:3rem;
+  color:#4B2C2E;
+  margin-bottom:10px;
+}
+
+h1 span{
+  display:block;
+  font-size:.9rem;
+  letter-spacing:4px;
+  color:#7A4A4D;
+}
+
+header p{
+  max-width:850px;
+  background:rgba(255,255,255,.85);
+  padding:25px;
+  border-radius:20px;
+  line-height:1.8;
+}
+
+.btn{
+  margin-top:30px;
+  padding:15px 45px;
+  background:linear-gradient(135deg,#E6C97A,#C9A24D);
+  color:#000;
+  text-decoration:none;
+  border-radius:50px;
+  font-weight:600;
+}
+
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:80px 20px;
+}
+
+h2{
+  font-family:'Playfair Display', serif;
+  font-size:2.3rem;
+  text-align:center;
+  color:#4B2C2E;
+  margin-bottom:40px;
+}
+
+.galeria{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.galeria img{
+  width:100%;
+  height:280px;
+  object-fit:cover;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,.25);
+  transition:.3s;
+}
+
+.galeria img:hover{
+  transform:scale(1.05);
+}
+
+.servicios{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:35px;
+}
+
+.servicio{
+  background:rgba(255,255,255,.85);
+  padding:30px;
+  border-radius:25px;
+}
+
+ul{
+  line-height:1.9;
+}
+
+.testimonios{
+  background:rgba(255,255,255,.8);
+  padding:50px;
+  border-radius:30px;
+}
+
+.testimonio{
+  font-style:italic;
+  margin:25px 0;
+}
+
+.redes{
+  text-align:center;
+  margin-top:30px;
+}
+
+.redes a{
+  margin:0 15px;
+  text-decoration:none;
+  color:#4B2C2E;
+  font-weight:600;
+}
+
+footer{
+  background:#4B2C2E;
+  color:#fff;
+  text-align:center;
+  padding:35px;
+}
+
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:#fff;
+  padding:15px 20px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:600;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo-halosalud.png" class="logo">
+  <h1>HALOSALUD <span>by DEJAVÚ SPA</span></h1>
+  <p>
+    Un refugio donde la respiración se vuelve medicina. Haloterapia: tratamiento natural en el que se respiran micropartículas de sal farmacéutica dentro de un entorno relajante y controlado. A través de un dispositivo de alta tecnología llamado halogenerador, se dispersan en el aire partículas de sal pura de grado médico, invisibles al ojo humano pero profundamente efectivas para el organismo. Al ingresar a nuestra cueva HALOSALUD by DEJAVÚ SPA, solo necesitas sentarte y respirar con normalidad mientras tu cuerpo inicia un proceso natural de limpieza y equilibrio.
+  </p>
+  <a class="btn" href="https://wa.me/593969489808">Reserva tu sesión</a>
+</header>
+
+<section>
+  <h2>Galería · Haloterapia</h2>
+  <div class="galeria">
+    <img src="imagenes/haloterapia1.jpg">
+    <img src="imagenes/haloterapia2.jpg">
+    <img src="imagenes/haloterapia3.jpg">
+    <img src="imagenes/haloterapia4.jpg">
+    <img src="imagenes/haloterapia5.jpg">
+    <img src="imagenes/haloterapia6.jpg">
+    <img src="imagenes/haloterapia7.jpg">
+    <img src="imagenes/haloterapia8.jpg">
+  </div>
+</section>
+
+<section>
+  <h2>Galería · Spa</h2>
+  <div class="galeria">
+    <img src="imagenes/spa1.jpg">
+    <img src="imagenes/spa2.jpg">
+    <img src="imagenes/spa3.jpg">
+    <img src="imagenes/spa4.jpg">
+    <img src="imagenes/spa5.jpg">
+    <img src="imagenes/spa6.jpg">
+    <img src="imagenes/spa7.jpg">
+  </div>
+</section>
+
+<section>
+  <h2>Servicios</h2>
+  <div class="servicios">
+    <div class="servicio">
+      <h3>💆‍♀️ Spa</h3>
+      <ul>
+        <li>Tratamientos faciales</li>
+        <li>Botox y ácido hialurónico</li>
+        <li>Masajes terapéuticos</li>
+        <li>Depilación definitiva</li>
+      </ul>
+    </div>
+    <div class="servicio">
+      <h3>🧂 Haloterapia</h3>
+      <ul>
+        <li>Adultos y niños</li>
+        <li>Apoyo respiratorio</li>
+        <li>Reducción de estrés</li>
+        <li>100% natural</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Experiencias</h2>
+  <div class="testimonios">
+    <div class="testimonio">“Se siente paz desde que entras.”</div>
+    <div class="testimonio">“Mi respiración cambió totalmente.”</div>
+    <div class="testimonio">“Aquí se nota el amor.”</div>
+  </div>
+</section>
+
+<section>
+  <h2>Contacto & Redes</h2>
+  <div class="redes">
+    <a href="https://www.instagram.com/halosalud_by_dejavu_spa">Instagram</a>
+    <a href="https://www.facebook.com/Halosalud by Déjà Vu Spa">Facebook</a>
+    <a href="https://www.tiktok.com/@halosalud.by.dj.v">TikTok</a>
+  </div>
+</section>
+
+<footer>
+© 2026 HALOSALUD by DEJAVÚ SPA · Hecho con amor
+</footer>
+
+<a class="whatsapp" href="https://wa.me/593969489808">WhatsApp</a>
+
+</body>
+</html>
